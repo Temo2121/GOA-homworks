@@ -54,11 +54,23 @@ setheading(0)
 pendown()
 color("brown")
 begin_fill()
-for _ in range(4):
-    forward(40)
+
+forward(40)
         
-    right(90)
+right(90)
+forward(40)
+        
+right(90)
+forward(40)
+        
+right(90)
+forward(40)
+        
+right(90)
+
 end_fill()
+
+
 
 
 # Drawing right window
@@ -67,9 +79,16 @@ goto(140,130)      # Moved to the right side
 setheading(0)
 pendown()
 begin_fill()
-for _ in range(4):
-    forward(40)
-    left(90)
+
+forward(40)
+left(90)
+forward(40)
+left(90)
+forward(40)
+left(90)
+forward(40)
+left(90)
+
 end_fill()
 
     
